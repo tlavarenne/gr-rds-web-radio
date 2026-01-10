@@ -64,15 +64,15 @@ Software requirements:
 ---
 
 ## Running the demo
-0. Download Demo Files at https://drive.google.com/file/d/1nZbhqOjQS7FJbejrz9Rja-n2DyCTEBk4/view?usp=sharing and put it in the same folder that the GRC and server files.
+1. Download Demo Files at https://drive.google.com/file/d/1nZbhqOjQS7FJbejrz9Rja-n2DyCTEBk4/view?usp=sharing and put it in the same folder that the GRC and server files.
 
-1. Start GNU Radio:
+2. Start GNU Radio:
 gnuradio-companion demo/fm_rds_demo.grc
 
-2. Start the web application:
+3. Start the web application:
 python3 demo/app.py
 
-3. Open your browser:
+4. Open your browser:
 http://127.0.0.1:5000
 
 ---
