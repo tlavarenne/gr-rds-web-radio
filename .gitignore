@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# GNU Radio / GRC
+*.py~
+*.grc~
+*.bak
+*.swp
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+tmp/
