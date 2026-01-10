@@ -4,6 +4,13 @@
 **RDS decoding**, **ZMQ messaging**, and a **web-based interface** to visualize
 FM broadcast radio data in real time.
 
+<img width="1808" height="956" alt="image" src="https://github.com/user-attachments/assets/2b12ce95-f8a2-437b-be1f-24b38b5b9336" />
+
+
+<img width="1862" height="1182" alt="image" src="https://github.com/user-attachments/assets/5d9308df-0d0a-4324-8815-4a9895b18c86" />
+
+Video demo here : 
+
 Demo files (Raw IQ) to download at https://drive.google.com/file/d/1nZbhqOjQS7FJbejrz9Rja-n2DyCTEBk4/view?usp=sharing
 
 The goal of this repository is to provide a clear, minimal, and educational
