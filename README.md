@@ -4,6 +4,8 @@
 **RDS decoding**, **ZMQ messaging**, and a **web-based interface** to visualize
 FM broadcast radio data in real time.
 
+Demo files (Raw IQ) to download at https://drive.google.com/file/d/1nZbhqOjQS7FJbejrz9Rja-n2DyCTEBk4/view?usp=sharing
+
 The goal of this repository is to provide a clear, minimal, and educational
 example of:
 - FM broadcast reception
@@ -29,16 +31,6 @@ This project is suitable for:
 
 ---
 
-## Repository structure
-
-gr-rds-web-radio/
-├── demo/
-│   ├── fm_rds_demo.grc
-│   └── app.py
-└── README.md
-
----
-
 ## Demo directory
 
 The demo/ folder contains a fully working demonstration.
@@ -50,7 +42,7 @@ GNU Radio Companion flowgraph implementing:
 - RDS extraction and decoding
 - ZMQ outputs (JSON, scopes, constellation, etc.)
 
-### app.py
+### server_zmq_rds_DEMO.py
 
 Flask web application that:
 - Subscribes to ZMQ outputs from GNU Radio
@@ -69,12 +61,10 @@ Software requirements:
 - pyzmq
 - NumPy
 
-Install Python dependencies:
-pip install flask pyzmq numpy
-
 ---
 
 ## Running the demo
+0. Download Demo Files at https://drive.google.com/file/d/1nZbhqOjQS7FJbejrz9Rja-n2DyCTEBk4/view?usp=sharing and put it in the same folder that the GRC and server files.
 
 1. Start GNU Radio:
 gnuradio-companion demo/fm_rds_demo.grc
@@ -84,14 +74,6 @@ python3 demo/app.py
 
 3. Open your browser:
 http://127.0.0.1:5000
-
----
-
-## Notes
-
-- No IQ or audio recordings are included in the repository.
-- ZMQ is used to decouple DSP from visualization.
-- The project favors clarity and pedagogy over performance.
 
 ---
 
