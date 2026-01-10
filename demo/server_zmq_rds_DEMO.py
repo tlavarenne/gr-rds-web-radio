@@ -28,25 +28,25 @@ STATIONS = [
     {
         "name": "France Inter",
         "freq": 87.8,
-        "fichier": "/home/lavarenne/BTSCIEL/2BTS/Chap2modulationsnumériques/TP2d/FranceInter95_7_21janv2017.dat",
+        "fichier": "FranceInter95_7_21janv2017.dat",
         "code":   "01100110101001010101010101010110",
     },
     {
         "name": "France Inter (alt)",
         "freq": 87.8,
-        "fichier": "/home/lavarenne/BTSCIEL/2BTS/Chap2modulationsnumériques/TP2d/FranceInterALT95_7_21janv2017.dat",
+        "fichier": "FranceInterALT95_7_21janv2017.dat",
         "code":   "01100110101001010101010101010110",
     },
     {
         "name": "France Musique",
         "freq": 91.7,
-        "fichier": "/home/lavarenne/BTSCIEL/2BTS/Chap2modulationsnumériques/TP2d/FranceMusique91_6_21janv2017.dat",
+        "fichier": "FranceMusique91_6_21janv2017.dat",
         "code":   "01100110101001010101010101011001",
     },
     {
         "name": "France Bleu Paris",
         "freq": 107.1,
-        "fichier": "/home/lavarenne/BTSCIEL/2BTS/Chap2modulationsnumériques/TP2d/FranceBleu102_6_21janv2017.dat",
+        "fichier": "FranceBleu102_6_21janv2017.dat",
         "code":   "01100110100101010101010101101001",
     },
 ]
@@ -219,7 +219,7 @@ def api_all():
 
 # -----------------------------
 # UI (FM style, optimized front)
-# Layout requested: station LEFT, audio RIGHT, then RDS + constellation below
+# Layout: station LEFT, audio RIGHT, then RDS + constellation below
 # + ADD: FM DIAL (graduations + cursor)
 # -----------------------------
 PAGE = r"""
@@ -401,7 +401,6 @@ canvas{width:100%;height:240px;display:block;border-radius:14px}
       <div class="logo"></div>
       <div>
         <div class="title">FM Monitor • Demo fichiers • RDS</div>
-        <div class="small">1 requête / tick (optimisé) • /api/all</div>
       </div>
     </div>
     <div class="chips">
