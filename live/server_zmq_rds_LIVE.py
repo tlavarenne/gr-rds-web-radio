@@ -123,7 +123,7 @@ def _set_freq_mhz(mhz, selected_name=None):
 # ZMQ callbacks
 # -----------------------------
 def on_rds(d):
-    with _LOCK:lspci | grep -i vga
+    with _LOCK:
         STATE["ps"] = d.get("ps", "") or ""
         STATE["rt"] = d.get("rt", "") or ""
         STATE["t"] = float(d.get("t", 0.0) or 0.0)
