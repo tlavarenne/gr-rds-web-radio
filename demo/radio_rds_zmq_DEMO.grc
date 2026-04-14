@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 options:
   parameters:
     author: ''
@@ -769,4 +766,3 @@ connections:
 metadata:
   file_format: 1
   grc_version: 3.10.12.0
->>>>>>> 85cd289 (Add LIVE RDS web radio and update DEMO)
